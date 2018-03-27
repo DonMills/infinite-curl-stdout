@@ -1,8 +1,8 @@
 FROM alpine:3.7
 
-ADD entrypoint.sh /usr/local/bin/entrypoint.sh
+COPY entrypoint.sh /usr/local/bin/entrypoint.sh
 
-RUN apk add --no-cache curl && \
+RUN apk add --no-cache curl bash && \
     chmod +x /usr/local/bin/entrypoint.sh
 
 ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
