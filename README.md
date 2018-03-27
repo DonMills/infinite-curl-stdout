@@ -1,9 +1,9 @@
-# Docker Alpine Curl
+# Docker Alpine Infinite Loop Curl
 
-Like it says, it's a docker image built on alpine with curl installed. Size 6.7 MB.
+Runs curl with the given host in an infinite loop.
 
-Available from docker hub as [byrnedo/alpine-curl](https://hub.docker.com/r/byrnedo/alpine-curl/)
+Available from docker hub as [tstrohmeier/alpine-infinite-curl](https://hub.docker.com/r/tstrohmeier/alpine-infinite-curl/)
 
 ## Usage
 
-    docker run --rm byrnedo/alpine-curl https://www.google.com
+    docker run --rm tstrohmeier/alpine-infinite-curl https://www.google.com
