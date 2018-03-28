@@ -6,4 +6,4 @@ Available from docker hub as [tstrohmeier/alpine-infinite-curl](https://hub.dock
 
 ## Usage
 
-    docker run --rm tstrohmeier/alpine-infinite-curl https://www.google.com
+    docker run --rm tstrohmeier/alpine-infinite-curl -h https://www.google.com
