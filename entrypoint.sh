@@ -17,6 +17,6 @@ done
 while true
 do
   echo "Press [CTRL+C] to stop.."
-  curl -s -o /dev/null -w "%{url_effective} [%{http_code}]\n" $HOST
-  sleep 1
+  curl -s -w "%{url_effective} [%{http_code}]\n" $HOST
+  sleep 2
 done
